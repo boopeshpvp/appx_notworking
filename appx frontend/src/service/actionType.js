@@ -1,0 +1,6 @@
+export const LOGIN_DETAILS="LOGIN_DETAILS"
+export const SOURCE_LOGIN="SOURCELOGIN"
+export const FORGET_PASSWORD="FORGETPASSWORD"
+export const GET_ID="GETID"
+export const RESET_PASSWORD="RESETPASSWORD"
+export const THEME="THEME"

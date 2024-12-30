@@ -1,0 +1,16 @@
+.css-19z1ozs-MuiPaper-root-MuiAppBar-root{
+    background-color: #f1f2f6 !important;
+}
+.css-1191obr-MuiPaper-root-MuiAppBar-root{
+    background-color: #f1f2f6 !important;
+}
+
+.profileLogo{
+    width: 32px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.boxShadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}

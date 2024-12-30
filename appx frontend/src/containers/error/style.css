@@ -1,0 +1,35 @@
+.errorImage {
+  height: 650px;
+}
+
+.registerButton {
+  background-color: #088b89 !important;
+  border: 1px solid #088b89 !important;
+  text-transform: capitalize !important;
+  color: white !important;
+  margin: 30px 0 !important;
+  padding: 5px 64px !important;
+}
+
+.errorPageContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.errorImage {
+  height: 650px;
+}
+
+.registerButton {
+  background-color: #088b89 !important;
+  border: 1px solid #088b89 !important;
+  text-transform: capitalize !important;
+  color: white !important;
+  margin: 30px 0 !important;
+  padding: 5px 64px !important;
+}
+.errorPageContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,335 @@
+.container {
+  padding: 24px 24px 0 24px;
+}
+
+.profileInformation {
+  margin-bottom: 1.5%;
+}
+
+.cardBox {
+  margin-bottom: 6px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.headercardBox {
+  border: 1px solid lightgrey;
+  margin-bottom: 38px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.profileImage {
+  margin-top: -3%;
+}
+
+.cardContent {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.profileCardHeading {
+  font-size: 19px !important;
+  font-weight: bold !important;
+  color: var(--primary);
+  text-align: center;
+  padding: 0 0 10px;
+}
+
+.profileName {
+  margin: 15px !important;
+}
+
+.cardDetails {
+  flex-wrap: wrap;
+  column-gap: 30px;
+  color: var(--secondary);
+}
+
+.employeeDetails {
+  padding: 10px 0 12px;
+}
+
+.detailveiwHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsWidth {
+  width: 80%;
+}
+
+.scrollBar {
+  height: 55vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.line {
+  border-bottom: 0.5px solid var(--secondary);
+  width: 14rem;
+}
+
+.scrollBarHeader {
+  padding: 0 13px;
+}
+
+.skillSet {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.ratingProgress {
+  margin-top: 2%;
+}
+
+.attendedInterviewCount {
+  margin-top: 2% !important;
+  font-size: xx-large !important;
+  font-weight: bold !important;
+}
+
+.tableHeading {
+  margin: 20px 0px 20px 50px;
+}
+
+.tableHead {
+  font-weight: bold !important;
+}
+
+.iconGap {
+  margin-left: 10px !important;
+}
+
+.css-46bh2p-MuiCardContent-root {
+  padding: 0px;
+}
+
+.graphContainer {
+  display: none;
+}
+
+.details {
+  color: "#088b89 !important";
+  font-size: 25px !important;
+  text-align: center;
+  font-weight: 600 !important;
+}
+
+.leftsidebar {
+  margin: 0;
+  padding: 1.5rem;
+  /* background-color: rgb(157, 73, 91); */
+  /* border: 2px solid #36ADDF; */
+  position: fixed;
+  /* height: 88%; */
+  height: calc(100vh - 103px);
+  width: 20%;
+  overflow: auto;
+  border-radius: 15px;
+  margin-top: 1%;
+  border: 1px solid #cacaca;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.absoluteBackground {
+  height: 12rem;
+  width: 100%;
+  background-color: #f7f9fc;
+  position: absolute;
+  /* top: 77px; */
+  z-index: -1;
+  border-radius: 16px;
+  bottom: 0;
+}
+.userBtns {
+  display: flex;
+  gap: 20px;
+  margin: 16px 10px 16px 0px;
+}
+
+.rightsidebar {
+  margin-left: 25%;
+  padding: 1px 16px;
+  margin-top: 1%;
+  /* height: 1000px; */
+}
+
+.cardHeight {
+  height: 100%;
+}
+
+.css-1jwpswq-MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.empProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: whitesmoke; */
+  /* border-radius: 16px; */
+  position: relative;
+}
+.empProfile .imgdiv {
+  border: 3px solid var(--primary);
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 14px;
+}
+
+.empProfile .imgdiv img {
+  padding: 2px;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+/* .firstCircle .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:5;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.firstCircle .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#f3f3f3;
+}
+.firstCircle .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 75) / 100);
+  stroke:#1A68FF;
+}
+.secondCircle .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:5;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.secondCircle .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#f3f3f3;
+}
+.secondCircle .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 20) / 100);
+  stroke:#FDDF1A;
+}
+.thirdCircle .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:5;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.thirdCircle .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#f3f3f3;
+}
+.thirdCircle .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 5) / 100);
+  stroke:#E96032;
+} */
+
+.projectCard,
+.reportCard {
+  /* border: 2px solid #36ADDF; */
+  height: 135px;
+  width: 470px;
+  border-radius: 13px;
+  padding: 24px;
+  border: 1px solid #cacaca;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.detailTable {
+  border-radius: 13px !important;
+  overflow: hidden !important;
+  border: 1px solid #cacaca;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.css-1bbopnn-MuiTable-root {
+  height: calc(100vh - 285px);
+}
+.css-y9h0tg-MuiTableCell-root {
+  vertical-align: baseline !important;
+}
+.css-1jwpswq-MuiSvgIcon-root {
+  font-weight: bold !important;
+  font-size: 34px !important;
+  /* color: black !important; */
+}
+.primary {
+  color: var(--primary);
+}
+/* .css-y9h0tg-MuiTableCell-root {
+    padding: 0 !important;
+} */
+.innerTable {
+  border: 0 !important;
+}
+.border {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  /* border-bottom: "none" !important; */
+}
+.projectModelContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+}
+.css-1wc4g7b {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}

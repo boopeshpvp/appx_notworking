@@ -1,0 +1,177 @@
+.dashboardHeader {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.topicHeader {
+    font-size: 20px;
+}
+
+.topicTotalEmployee {
+    font-size: 30px;
+    color: var(--primary)!important;
+}
+
+.cardsLayout::-webkit-scrollbar {
+    display: none;
+}
+
+.dynamicCards {
+    width: 285px;
+    height: 205px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px !important;
+    border-radius: 20px;
+    row-gap: 15px;
+}
+
+.dynamicCardsTotal {
+    width: 260px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.calenderWidth {
+    width: 60%;
+
+}
+
+.dashboardTitle {
+    color: var(--primary)!important;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.pieChart {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.headerWidth {
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1078px) {
+    .dynamicCardsTotal {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1037px) {
+    .calenderWidth {
+        width: 100%;
+    }
+
+    .peichartWidth {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .cardsContainer {
+        justify-content: center;
+    }
+
+    .cardsLayout {
+        width: 100%;
+    }
+}
+
+.cardBox {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.eventcardBox {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    width: 18%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.cardContent {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.eventcardContent {
+    text-align: center;
+}
+
+.profileCardHeading {
+    font-size: 19px !important;
+    font-weight: bold !important;
+    color: var(--primary);
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 10px !important;
+
+}
+
+.attendedInterviewCount {
+    margin-top: 2% !important;
+    /* font-size: xx-large !important; */
+    font-weight: bold !important;
+    font-size: 30px;
+    margin-bottom: 10px !important;
+
+}
+
+.eventCardDisplay {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+
+.addEventButton {
+    background-color: var(--primary)!important;
+    color: white !important;
+    border: none;
+    outline: none;
+    font-size: 17px !important;
+    border-radius: 5px;
+    text-transform: capitalize !important;
+}
+
+.css-1yuhvjn {
+    margin-top: 52px !important;
+}
+
+.css-164r41r {
+    margin-top: 20px !important;
+}
+
+.eventImg {
+    width: 138px;
+    height: 40px;
+}
+
+.eventDisplay {
+    display: flex;
+    justify-content: space-around;
+}

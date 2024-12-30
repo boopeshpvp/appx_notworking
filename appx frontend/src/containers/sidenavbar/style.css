@@ -1,0 +1,32 @@
+.drawer {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+}
+
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+   background-color: #f1f2f6;
+
+}
+
+.adminPanelLayout {
+   display: flex;
+   flex-direction: column;
+}
+
+.routerPathDisplay {
+   color:var(--primary) !important;
+   font-size: 30px !important;
+   font-weight: 600 !important;
+}
+
+.officeLogo {
+   width: 206px;
+   height: 64px;
+   margin: auto;
+}
+
+.css-ghattt-MuiListItemIcon-root {
+   box-shadow: none !important;
+}

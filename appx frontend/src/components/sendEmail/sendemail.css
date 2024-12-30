@@ -1,0 +1,94 @@
+.quillstyles {
+    width: 100%;
+    height: 13rem;
+    background-color: white;
+    position: relative;
+    padding: 0px 3px 30px 3px;
+}
+
+.subject .css-x7l9ht-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: none !important;
+}
+
+.subject .css-x7l9ht-MuiInputBase-root-MuiInput-root:hover {
+    border-bottom: none !important;
+}
+
+.subject .css-x7l9ht-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: none !important;
+}
+
+.ql-container {
+    border-radius: 0 0 10px 10px !important;
+    background-color: #F6F7F8;
+}
+
+.ql-toolbar svg:hover{
+    color: var(--primary) !important;
+}
+
+.ql-toolbar {
+    border-radius: 10px 10px 0 0 !important;
+    border-bottom: none !important;
+}
+
+.modalquill {
+    width: 60%;
+    height: 10rem;
+}
+
+.sendMsg {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.sendMsg label {
+    min-width: 40px !important;
+    padding: 6px 0 !important;
+}
+
+.sendMsg svg {
+    color: black;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1024px) {
+    .modalstyle {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .modalstyle {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .modalstyle {
+        width: 95% !important;
+    }
+
+    .sendMsg {
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sendMsg {
+        margin-top: 8rem;
+    }
+}

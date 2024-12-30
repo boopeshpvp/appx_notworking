@@ -1,0 +1,63 @@
+### Post method
+POST http://localhost:4000/admin/login
+Content-Type: application/json
+
+{
+"email":"admin21@gmail.com",
+"password":"Admin@123"
+}
+
+###Get method for login
+GET http://localhost:4000/admin/login
+
+###Post method for admin route
+POST http://localhost:4000/admin
+Content-Type: application/json
+
+{
+   "name":"Mariganesh",
+   "role":"HR",
+   "branch":"Coimbatore",
+   "joinedDate":"01-03-2023"
+}
+
+### Get method for getting all users using admin route 
+GET http://localhost:4000/admin
+
+### Get method for admin route by using specific id
+GET http://localhost:4000/admin/64dca9492d2b5c56d5a2f5af
+
+### Edit method for admin route
+PATCH  http://localhost:4000/admin/64dca9792d2b5c56d5a2f5b4
+Content-Type: application/json
+
+{
+   "role":"DB"
+}
+
+### Delete method for admin route
+DELETE   http://localhost:4000/admin/64dca9932d2b5c56d5a2f5b8
+
+### Unknown route path
+GET http://localhost:4000/abc_xyz
+
+### Test query string
+GET http://localhost:4000/test?name=Vishva&id=3
+
+### Test params string
+GET http://localhost:4000/test/23/vishva
+
+### Test Post json type
+POST http://localhost:4000/test
+Content-Type: application/json
+
+{
+   "Name":"Vishva",
+   "Age":23
+}
+
+### Test Post form type
+POST http://localhost:4000/test
+Content-Type:application/x-www-form-urlencoded
+
+name=vishva&age=23

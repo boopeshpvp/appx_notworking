@@ -1,0 +1,122 @@
+.editIconOff {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--secondary);
+    visibility: hidden;
+}
+
+.editIconOn {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--secondary);
+}
+
+.divider {
+    border-width: 0.5px !important;
+    opacity: 1 !important;
+    border-color: var(--secondary) !important;
+    width: 100% !important;
+}
+
+.form-header {
+    color: var(--primary);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.imageContainer {
+    margin-top: 20px;
+}
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 5px;
+}
+
+.profileImage {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textfieldContainer {
+    line-height: 1.8;
+    display: grid;
+    justify-content: end;
+}
+
+.name-container {
+    display: flex;
+    gap: 97px;
+    justify-content: center;
+
+}
+
+.mtb-10 {
+    margin: 5px 0;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.textWidth {
+    width: 350px !important;
+}
+
+.addressWidth {
+    width: 835px !important;
+}
+
+
+.css-1o0nmb2-MuiFormLabel-root-MuiInputLabel-root {
+    line-height: unset !important;
+}
+
+.selectField {
+    width: 350px !important;
+    border: none !important;
+    outline: none !important;
+    border-bottom: 0.1px solid #9e9999 0.1px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footerButton {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    padding: 33px 20px 20px;
+}
+
+.backButton {
+    color: black !important;
+    background-color: #f4f9fe !important;
+    text-transform: capitalize !important;
+    border: 1px solid lightgray !important;
+}
+
+.submitButton {
+    background-color: #088b89 !important;
+    color: white !important;
+    border: none;
+    outline: none;
+    text-transform: capitalize !important;
+}
+
+.buttonVisiblityOn {
+    background-color: var(--primary) !important;
+}
+
+.buttonVisiblityOff {
+    background-color: var(--primary) !important;
+    visibility: hidden !important;
+}

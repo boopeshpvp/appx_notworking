@@ -1,0 +1,76 @@
+.textfieldContainer {
+    display: grid;
+    justify-content: center;
+    padding: 0 10px;
+    align-items: center;
+   
+  }
+  .mtb-10 {
+    margin: 10px 0;
+  }
+  .addemployeeButton {
+    background-color: var(--primary)!important;
+    color: white !important;
+    border: none;
+    outline: none;
+    font-size: 17px !important;
+    border-radius: 5px;
+    text-transform: capitalize !important;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+  }
+  .mtb-20{
+    margin: 20px 0;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+  }
+  .label-fontsize{
+    font-size: 20px !important;
+  }
+  .branchContainer{
+    width:440px;
+    outline: none;
+  }
+  .css-12v91gq-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+    color:var(--primary)!important;
+  }
+  .css-12v91gq-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+    color:var(--primary)!important;
+  }
+  .css-1klbvgn-MuiSvgIcon-root {
+    color: white;
+  }
+  
+  .css-x4y1gd-MuiButtonBase-root-MuiButton-root{
+    background-color:var(--primary) !important ;
+  }
+  .css-1jwpswq-MuiSvgIcon-root{
+    cursor: pointer;
+  }
+  .skillIcon{
+    color: var(--primary) !important;
+    margin-right: 20px;
+  }
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1kkal6p-MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+    max-width: 440px;
+  }
+  @media screen and (max-width: 1070px) {
+    .addFormTextField{
+      height: 30px;
+    }
+    .textfieldContainer {
+      gap: 4px;
+    }
+    .css-1irq4u4-MuiButtonBase-root-MuiButton-root {
+      height: 30px;
+    }
+    .css-x4y1gd-MuiButtonBase-root-MuiButton-root {
+      height: 30px;
+    }
+    .css-2royc9 {
+      padding-top: 5px;
+    }
+  }

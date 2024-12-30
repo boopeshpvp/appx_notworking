@@ -1,0 +1,536 @@
+.main-container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.submain-container {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  overflow: hidden;
+}
+
+.img-container {
+  width: 60% !important;
+}
+
+.form-container {
+  width: 40% !important;
+}
+
+.img-container {
+  background-color: #f4f9fe;
+  display: grid;
+  /* position: relative; */
+  overflow: hidden;
+}
+
+.logo {
+  padding: 30px 0 0 30px;
+  height: 90px
+}
+
+.centerImg {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* position: absolute; */
+  overflow: hidden;
+}
+
+.flowerImg {
+  height: 40px;
+  width: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4% !important;
+}
+
+.title-container {
+  color: var(--primary) !important;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.font-color {
+  color: #57616c;
+  padding: 15px;
+}
+
+.signinWithGoogle {
+  border: 1px solid lightgray !important;
+  border-radius: 5px;
+  font-size: 16px !important;
+  margin: 10px auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #797979 !important;
+  background-color: #f4f9fe !important;
+  text-transform: capitalize !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.orContainer {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0px;
+}
+
+.divider {
+  width: 88%;
+  color: #ccc;
+  border: 1px solid black;
+}
+
+.orText {
+  border: 1px solid lightgrey;
+  padding: 2px 38px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.form-header {
+  color: var(--primary) !important;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.textfieldContainer {
+  line-height: 1.8;
+  /* display: grid; */
+  /* justify-content: center; */
+  padding: 0 10px;
+}
+
+.mtb-10 {
+  margin: 10px 0;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+
+.signupbutton {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.verificationbutton {
+  text-align: center;
+  padding: 20px;
+}
+
+.rememberme-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.signupbutton-container {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border: none;
+  outline: none;
+  font-size: 17px !important;
+  border-radius: 5px;
+  width: 90%;
+  text-transform: capitalize !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+
+.line-border {
+  width: 90%;
+  border-bottom: 0.5px solid lightgrey;
+  display: flex;
+  margin: 10px auto 20px;
+}
+
+.margin-bottom {
+  font-weight: 500;
+}
+
+.link-container {
+  text-decoration: none;
+  color: var(--primary) !important;
+}
+
+/* ----------------- */
+.name-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/*forget passowrd */
+.mtb-20 {
+  margin: 20px 0;
+}
+
+.p25 {
+  padding: 10px 16px;
+}
+
+.lockimage {
+  width: 46px;
+  height: 46px;
+}
+
+.lockdisplay {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.linkDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+/*verification*/
+.otpfieldContainer {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  /* padding: 5px 26px; */
+}
+
+.otpContainer {
+  text-align: center;
+}
+
+.mtb-30 {
+  margin: 30px 0;
+}
+
+/* loader */
+.spinner {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+
+}
+
+.loaderVeiw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: var(--primary) !important;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: var(--primary) !important;
+}
+
+.createCardButton {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border: none;
+  outline: none;
+  font-size: 17px !important;
+  border-radius: 5px;
+  text-transform: capitalize !important;
+  display: inline-block;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+
+.calenderCenter {
+  margin-top: 70px;
+}
+
+.flexContainer {
+  display: flex;
+  gap: 50px
+}
+
+.profileImg {
+  height: 253px;
+  width: 235px;
+  border-radius: 100px;
+
+}
+
+.imgShadow {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.button {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border: none;
+  outline: none;
+  font-size: 17px !important;
+  border-radius: 5px;
+  text-transform: capitalize !important;
+
+}
+
+.profileValue {
+  color: var(--primary) !important;
+  padding: 12px 50px !important;
+  max-width: fit-content !important;
+
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  background-color: var(--primary) !important;
+}
+
+.imageProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.feild {
+  display: flex;
+  justify-content: center;
+}
+
+.tableWidth {
+  width: 100%
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.insertrow {
+  background-color: var(--primary) !important;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+}
+
+.formcontrols {
+  display: block;
+  width: 40%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+.css-ut7hob-MuiButtonBase-root-MuiIconButton-root {
+  padding: 8px 20px !important
+}
+
+.css-1laqsz7-MuiInputAdornment-root {
+  margin-left: 0px !important;
+}
+
+.css-4jnixx-MuiStack-root>.MuiTextField-root {
+  min-width: 0px !important;
+}
+
+.interviewDetailTable {
+  width: 100%
+}
+
+.tableBorder {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+.addLinkButton {
+  background-color: var(--primary) !important;
+  text-transform: capitalize !important;
+  padding: 1px 11px !important;
+  color: white !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+
+.modelContainer {
+  color: var(--primary) !important;
+  font-size: 20px;
+}
+
+.modelButtonContainer {
+  margin-top: 5px;
+}
+
+.cancelModel {
+  float: right;
+  color: red;
+}
+
+.css-1u8qpt5 {
+  padding: 10px !important;
+}
+
+.footerButton {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  padding: 50px 20px 20px;
+}
+
+.css-fznude {
+  margin-top: 15px !important;
+}
+
+.officeLogo {
+  width: 206px;
+  height: 64px;
+  margin: auto;
+}
+
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+  background-color: #f1f2f6;
+}
+
+.topNavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.topNavbarIcons {
+  display: flex;
+  gap: 20px
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileLogo {
+  width: 32px;
+  border-radius: 30px;
+}
+
+.signupbutton-container {
+  width: 100% !important;
+}
+@media screen and (max-width: 1360px) {
+  .img-container {
+    display: none !important;
+  }
+  .form-container {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 700px){
+  .title-container {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .submain-container {
+    display: flex;
+    height: 100% !important;
+    width: 100% !important;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    overflow: hidden;
+  }
+}
+/* @media screen and (max-width: 1060px) {
+  .title-container {
+    font-size: 10px !important;
+  }  
+} */
+
+
+
+/*    
+ @media screen and (max-width: 1280px) {
+  .img-container {
+    width: 60%;
+  }
+
+  .form-container {
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 1450px) {
+  .img-container {
+    width: 60%;
+  }
+
+  .form-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .img-container {
+    width: 60%;
+  }
+
+  .form-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .img-container {
+    width: 60%;
+  }
+
+  .form-container {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .img-container {
+    width: 50%;
+  }
+
+  .form-container {
+    width: 50%;
+  }
+}  */

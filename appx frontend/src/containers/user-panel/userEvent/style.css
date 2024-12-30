@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.day {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #088b89;
+  text-align: center;
+  translate: 0 50%;
+}
+
+.presentDay {
+  background-color: #088b89;
+  border-radius: 9999px;
+  color: rgb(255 255 255);
+}
+
+.date {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.25rem;
+  padding: 0.25rem;
+  /* margin-top: 0.25rem;
+  margin-bottom: 0.25rem; */
+}
+
+.calendarIcon {
+  margin-right: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.todayButton {
+  background-color: #088b89 !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}

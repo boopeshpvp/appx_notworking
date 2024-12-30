@@ -1,0 +1,76 @@
+.personalDetailsPage {
+    display: flex;
+}
+
+.contactDetailsBox{
+    position: sticky;
+    top: 155px;
+    min-width: 400px;
+}
+
+.personalInput input {
+    padding-top: 5px;
+}
+
+.bioInput {
+    width: 100%;
+    padding: 10px 20px;
+}
+.modalButton{
+    border-color: var(--primary) !important;
+    color: var(--primary) !important;
+    cursor: pointer !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+.modalDeleteButton{
+    color: red !important;
+    border-color: red !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+.shadow{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+}
+.imageAndButton {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.profileheader{
+    font-weight: bolder;
+    /* color: var(--primary); */
+    font-size: 22px;
+}
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.camIcon {
+    margin-left: 27px;
+    margin-bottom: 40px;
+}
+.css-1bbcg1i {
+    height: 84px;
+    width: 80px;
+}
+.camDiv{
+    background-color: rgb(1, 1, 1);
+}
+@media only screen and (max-width: 1140px) {
+    .personalDetailsPage {
+        display: block;
+    }
+
+    .contactDetailsBox {
+        position: relative;
+        top: 0;
+        min-width: 0px;
+    }
+
+    .allPersonalDetails{
+        overflow-y:visible !important;
+        max-height: none !important;
+    }
+}
